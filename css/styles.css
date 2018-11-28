@@ -1,16 +1,45 @@
-  body {
-    background-color: #eaf6f6;
-  }
+body {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
 
-  h1, h3 {
-    color: #66bfbf;
-  }
+/*can also use margin: 0 auto 0 auto; to center*/
+h1 {
+  font-family: 'Sacramento', cursive;
+  margin-top: 0;
+}
 
-  hr {
-    border-style: dotted none none none;
-    border-color: grey;
-    border-width: 8px;
-    width: 10%;
-    height: 0px;
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
 
-  }
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top {
+  background-color: #DCB5FF;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle {
+
+}
+
+.topcloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottomcloud {
+  bottom: 300px;
+  left: 300px;
+  position: absolute;
+}
+
+.bottom {
+
+}
